@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+a {
+    color: #222;
+    text-decoration: none; /* Désactive les effets de décorations comme des soulignements */
+}
+
+.header {
+    background-color: black;
+    overflow: auto; /* Fixes les "blocks" qui ont étaient modifiés, et ne sont plus considérés comme tel */
+    line-height: 1.7em;
+}
+
+.header nav h1 {
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+
+.header nav ul li {
+    float: left;
+}
+
+.header nav ul li a {
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.cafe {
+    height: 700px;
+    width: 100%; /*self add*/
+    background-image: url("cafe.jpg");
+    background-size: cover;
+    background-position: center center; /*Ajouter moi-même à partir d'ici*/ 
+    text-align: center;
+    
+}
+
+.cafe-content {
+    color: white;
+    text-align: center;
+
+    
+}
+
+.decouvrir {}
+
+.nouvcafe {}
+
+.horaire {}
